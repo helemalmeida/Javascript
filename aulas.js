@@ -115,27 +115,49 @@
 
 //============================ OPERADORES ====================================
 
-//operadores aritmeticos [matematicos]
+
+ //=================aritmeticos=================//
+// let salario = 3000;
+// console.log(salario + salario);
+// console.log(salario - salario);
+// console.log(salario * salario);
+// console.log(salario / salario);
+// console.log(3 ** 3);
+
+// let idade = 27;
+// console.log (idade++);
+// console.log(idade);
+// console.log(++idade); //se quiser incrementar antes
+// console.log(--idade);
 
 
-
-//operadores atribuição
-
+ //=================atribuição=================//
 
 
+// let valorVideogame = 4700;
+// // valorVideogame = valorVideogame + valorVideogame;
+// valorVideogame += valorVideogame;
+// console.log(valorVideogame);
 
-//operadores comparação
+ //=================igualdade=================//
+
+// //igualdade estrita
+// console.log(1 === 1); //3= compara valor e TIPO 
+// console.log('1' === 1);
+
+// //igualdade solta
+// console.log(1 == 1);
+// console.log('1' == 1); //não vale a pena
 
 
+ //=================ternario=================//
 
+ //para não usar muitos if--
+ //100 pts: premium, inferior comum
 
-//operadores logicos
+//  let pontos = 200;
+//  let tipo = pontos > 100 ? 'premium' : 'comum';
+//  console.log(tipo);
 
-
-
-
-//operadores bitwise
-
-
-
+ //=================logicos=================//
 
