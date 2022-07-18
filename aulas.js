@@ -161,3 +161,43 @@
 
  //=================logicos=================//
 
+ //e (&&)
+//retorna true se os dois operandos forem true
+// console.log(false && true);
+
+// let maiorIdade = true;
+// let possuiCarteiraTrabalho = true;
+// let podeAplicar = maiorIdade && possuiCarteiraTrabalho;
+
+// console.log(podeAplicar);
+
+//ou (||)
+//retorna true se um dos operandos for true
+
+// let maiorIdade = true;
+// let possuiCarteiraTrabalho = false;
+// let podeAplicar = maiorIdade || possuiCarteiraTrabalho;
+
+// console.log('Pode aplicar:', podeAplicar);
+
+// //not (!)
+
+// let candidatoRecusado = ! podeAplicar; 
+// console.log('Candidato Recusado:', candidatoRecusado);
+
+
+ //=================comparação não booleano=================//
+
+//falsy são todos os valores undefined/null/0/false/''/NaN - not a number 
+
+//truthy 
+
+// let corPersonalizada = '';
+// let corPadrao = 'Azul'; //para retornar o azul um dos primeiros valores precisa ser falsy
+// let corPerfil = corPersonalizada || corPadrao;
+// console.log(corPerfil);
+
+
+
+//============================ IF ELSE ====================================
+
