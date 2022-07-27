@@ -115,7 +115,6 @@
 
 //============================ OPERADORES ====================================
 
-
  //=================aritmeticos=================//
 // let salario = 3000;
 // console.log(salario + salario);
@@ -198,6 +197,124 @@
 // console.log(corPerfil);
 
 
-
 //============================ IF ELSE ====================================
 
+//Mostrar mensagem na tela bom dia/tarde/noite de acordo com a hora 
+
+
+// var dataAtual = new Date();
+// var dia = dataAtual.getDate();
+// var mes = (dataAtual.getMonth() + 1);
+// var ano = dataAtual.getFullYear();
+// var horas = dataAtual.getHours();
+// var minutos = dataAtual.getMinutes();
+// console.log("Hoje é dia " + dia + "/" + mes + " de " + ano + ". Agora são " + horas + "h" + ":" + minutos);
+
+// let hora = 4; 
+
+// if (hora >= 6 && hora < 12) {
+//     console.log("Bom dia, agora são " + hora + " horas.");
+// }
+// else if (hora >= 12 && hora < 18) {
+//     console.log("Boa tarde, agora são " + hora + " horas.");
+// }
+// else if (hora >= 18 || hora < 00){
+//     console.log("Boa noite, agora são " + hora + " horas.");
+// }
+// else {
+//     console.log("Boa madrugada, agora são " + hora + " horas.")
+// }
+
+
+//============================ SWITH CASE ====================================
+
+// let permissao; //comum, gerencial, diretoria 
+// permissao = 'comum';
+
+// switch (permissao) {
+//     case 'comum':
+//         console.log('Permissão comum');
+//         break;
+
+//     case 'gerencial':
+//         console.log('Permissão gerencial');
+//         break;
+        
+//     case 'diretoria':
+//         console.log('Permissão diretoria');
+//         break;
+        
+//     default: 
+//         console.log('Usuario desconhecido');
+
+// }
+
+//============================ LOOP FOR ====================================
+
+
+//     for(let i=1; i <= 5; i++) {
+//     console.log('Teste',i);
+// }
+
+//ex: só impar 
+//     for(let i=1; i <= 5; i++) {
+//         if (i % 2 !== 0){
+//             console.log('Impar',i);
+//         }
+//         else {
+//             console.log('Par',i);
+//         }
+// }
+
+
+//============================ LOOP WHILE ====================================
+
+// let i=1;
+
+// while (i <= 5) {
+//     if (i % 2 !== 0){
+//         console.log('Impar', i);
+//     }
+//     i++;
+// }
+
+
+
+//============================ LOOP DO WHILE ====================================
+
+// let i = 0;
+//     do {
+//         console.log("Digitando...", i);
+//         i++;
+//     }  
+//     while (i < 10 || i == 10);
+
+
+//============================ LOOP FOR IN ====================================
+
+// const pessoa = {
+//     nome: 'Helem',
+//     idade: 27
+// };
+// //key-value
+// for (let chave in pessoa) {
+//     console.log(chave, pessoa[chave]);
+// }
+
+// const cores = ['Red', 'Green', 'Blue'];
+
+// for (let indice in cores) {
+//     console.log(indice, cores[indice]);
+// }
+
+
+//============================ LOOP FOR OF ====================================
+
+// const cores = ['Red', 'Green', 'Blue'];
+
+// for(let cor of cores) {
+//     console.log(cor);
+// }
+
+
+//============================  ====================================
