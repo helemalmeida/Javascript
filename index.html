@@ -14,5 +14,20 @@
 </head>
 <body>
     <h1>Helem Almeida - Javascript</h1>
+
+    <button type="button" onclick="clicar()">Clique aqui</button>
+    <h2 id="mensagem" onclick="redirecionar()"></h2>
+    <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p> 
+    <!--quando tiver mais outro elemento para trocar também, ao invés de criar várias function's
+    eu passo o parametro THIS e no .js passo elemento, ao invés de fazer document., fica element.-->
+
+    <select onchange="funcaoChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+
+    
 </body>
 </html>

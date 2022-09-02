@@ -317,4 +317,33 @@
 // }
 
 
-//============================  ====================================
+//============================ ALGUNS EVENTOS - BOTÕES ====================================
+
+function clicar(){
+    document.getElementById("mensagem").innerHTML = "Clique aqui para ser redirecionado!";
+    // alert(document.getElementById("mensagem"));
+    // alert("Clique aqui para ser redirecionado!");
+}
+
+function redirecionar(){
+    window.open("https://helemalmeida.netlify.app/");
+}
+
+function trocar(elemento){
+    // document.getElementById("mousemove").innerHTML = "Uhuuuul!";
+    elemento.innerHTML = "Uhuuuul!";
+    // alert("Trocar texto");
+}
+
+function voltar(elemento){ 
+    // document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("Página carregada com sucesso!");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
